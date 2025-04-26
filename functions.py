@@ -44,7 +44,7 @@ def keep_only(lst, good):
     """ Assume lst and good are both lists.
         Return a copy of lst keeping only the elements in good.
         e.g. keep_only([a,b,c], [c,d]) -> [c] """
-    pass
+    return []
 
 
 def remove_all(lst, bad):
