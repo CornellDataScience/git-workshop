@@ -5,7 +5,7 @@
 import unittest
 import random
 
-from competition import code as c
+from .competition import code as c
 
 
 class Interval:
