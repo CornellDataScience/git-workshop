@@ -21,10 +21,13 @@ def no_merge_conflict():
     print("doesn't")
     print("create a merge conflict")
     print("right?")
+
 def maybe_merge_conflict():
     print("this may create")
     print("a merge conflict")
     print("we'll see")
-def a_function():
+
+def b_function():
+    print("hello")
     print("I am not a function")
     return
