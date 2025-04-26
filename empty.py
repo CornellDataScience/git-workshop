@@ -16,5 +16,9 @@ def another_one():
     print("khalid")
     print("another")
     print("one")
-
+def no_merge_conflict():
+    print("this")
+    print("doesn't")
+    print("create a merge conflict")
+    print("right?")
 a = ["hello "]
