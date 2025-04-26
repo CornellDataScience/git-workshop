@@ -5,7 +5,7 @@
 import unittest
 import random
 
-from .competition import code as c
+import functions as c
 
 
 class Interval:
