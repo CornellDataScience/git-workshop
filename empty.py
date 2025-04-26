@@ -22,3 +22,6 @@ def no_merge_conflict():
     print("create a merge conflict")
     print("right?")
 a = ["hello "]
+def a_function():
+    print("I am not a function")
+    return
