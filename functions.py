@@ -11,7 +11,18 @@ def most_frequent(lst):
         Return the set of elements of lst which have the maximum frequency.
         e.g. ['b','e','l','l','e'] -> {'l','e'}
         e.g. [] -> {} """
-    pass
+    freq = {}
+    most_freq = set()
+    max = 0
+    for a in lst:
+        freq.setdefault(a, 0)
+        freq[a] += 1
+        if freq[a] > max:
+            max = freq[a]
+            most_freq = {a}
+        elif freq[a] == max:
+            most_freq.add(a)
+    return most_freq
 
 
 def init_array(*dims, generator=(lambda: 0)):
@@ -32,7 +43,7 @@ def keep_only(lst, good):
     """ Assume lst and good are both lists.
         Return a copy of lst keeping only the elements in good.
         e.g. keep_only([a,b,c], [c,d]) -> [c] """
-    pass
+    return []
 
 
 def remove_all(lst, bad):
