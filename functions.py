@@ -51,7 +51,7 @@ def remove_all(lst, bad):
     """ Assume lst and bad are both lists.
         Return a copy of lst with any elements in bad removed.
         e.g. remove_all([a,b,c], [c,d]) -> [a,b] """
-    pass
+    return []
 
 
 def vowels():
