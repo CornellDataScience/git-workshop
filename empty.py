@@ -18,3 +18,6 @@ def another_one():
     print("one")
 
 a = ["hello "]
+def a_function():
+    print("I am not a function")
+    return
